@@ -7,7 +7,7 @@ body{
     height: 100vh;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    
 }
 main{
     height: auto;
@@ -63,15 +63,15 @@ ul{
     
 }
 li{
-  font-size: 20px;
-  width: 100%;
-  background: #f1f1f1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 5px;
-  color: black;
-  margin:10px 0;
+    font-size: 20px;
+    width: 100%;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    color: black;
+    margin:10px 0;
 }
 li input{
     width: 20px;
@@ -88,8 +88,10 @@ button img{
     height: 20px;
     width: 20px;
     pointer-events: none;
-
+    
 }
 .finDeTache{
     text-decoration: line-through;
+    background: rgb(0, 132, 255);
+    transition: all 2s ease;
 }
