@@ -60,7 +60,6 @@ function tacheFaite(e){
     console.log(todo.id);
 }
 
-let datedujour = 
 
 input.addEventListener('mouseenter', () => input.setAttribute('placeholder', ''))
-input.addEventListener('mouseout', () => input.setAttribute('placeholder', 'Entrer votre tache ici'))
+input.addEventListener('mouseout', () => input.setAttribute('placeholder', 'Enter your task here'))

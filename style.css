@@ -87,8 +87,6 @@ button img{
     cursor: pointer;
     height: 20px;
     width: 20px;
-    pointer-events: none;
-    
 }
 .finDeTache{
     text-decoration: line-through;
